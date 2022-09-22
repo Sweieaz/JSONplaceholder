@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 22px;
+}
+.posts-list {
+  background: #ffffff;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+}
+
+.nav,
+.nav-item {
+  height: 94px;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.31);
+  list-style: none;
+  position: absolute;
+}
+
+#name {
+  position: absolute;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  margin-left: 45px;
+  margin-bottom: 34px;
+  margin-top: 36px;
+  width: 208px;
+  height: 24px;
+}
+
+.links a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  position: absolute;
+  text-align: center;
+  margin-top: 37px;
+  height: 22px;
+  margin-bottom: 35px;
+}
+
+.post {
+  margin-left: 405px;
+  position: absolute;
+}
+
+.post a {
+  text-decoration-line: underline;
+  font-weight: 700;
+  width: 44px;
+}
+
+.albums {
+  margin-left: 575px;
+  position: absolute;
+}
+
+.albums a {
+  width: 60px;
+}
+
+.todos {
+  margin-left: 760px;
+  position: absolute;
+}
+
+.todos a {
+  width: 47px;
+}
+
+.user {
+  margin-left: 939px;
+  position: absolute;
+}
+
+.user a {
+  width: 45px;
+}
+
+.postUITable {
+  width: 1440px;
+  height: 930px;
+  position: absolute;
+}
+#tableMain {
+  margin-top: 141px;
+  margin-left: 53px;
+  display: flex;
+  width: 1323px;
+  height: 716px;
+  position: absolute;
+}
+
+.th tr {
+  background: rgba(217, 217, 217, 0.28);
+  width: 1323px;
+  height: 55px;
+  padding-top: 12px;
+  position: absolute;
+}
+
+.th-row {
+  border-bottom: none;
+}
+
+#title {
+  position: absolute;
+  margin-left: 25px;
+  width: 152px;
+  height: 34px;
+}
+
+#des {
+  position: absolute;
+  margin-left: 395px;
+  width: 409px;
+  height: 34px;
+}
+
+#word {
+  position: absolute;
+  margin-left: 844px;
+  width: 87px;
+  height: 22px;
+}
+
+#author {
+  position: absolute;
+  margin-left: 1054px;
+  width: 244px;
+  height: 22px;
+}
+
+#data {
+  padding-top: 66px;
+  margin-left: 25px;
+  position: absolute;
+}
+
+/* .td-1 {
+  color: rgba(28, 75, 240, 0.96);
+  width: 317px;
+  height: 50px;
+  position: absolute;
+} */
+
+.show {
+  position: absolute;
+  padding-left: 76px;
+  padding-top: 835px;
+}
+
+.showRows {
+  position: absolute;
+  padding-left: 165px;
+  padding-top: 827px;
+}
+
+.rowNumber {
+  background: #f3f1f1;
+  width: 112px;
+  height: 40px;
+  list-style: none;
+}
+
+#rows {
+  position: absolute;
+  width: 65px;
+  height: 22px;
+  padding-top: 8px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+#pagination {
+  height: 57px;
+  padding-top: 818px;
+  padding-left: 781px;
+  position: absolute;
+}
