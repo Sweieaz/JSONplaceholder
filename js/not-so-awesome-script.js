@@ -1,7 +1,5 @@
 'use strict';
 
-var fn = require('./index');
-
 const baseUrl = 'https://jsonplaceholder.typicode.com';
 class Post {
   constructor(userId, id, title, body) {
@@ -17,8 +15,6 @@ class EnrichedPost extends Post {
     super(post.id, post.userId, post.title, post.body);
   }
 
-  // TODO: update this to use the optimal solution as implemented in the jsfiddle here
-  //  https://jsfiddle.net/mbvg25oe/36/
   async addUser() {
     // hack for https://jsonplaceholder.typicode.com/users
     // userIds above 10 are 404
@@ -41,6 +37,7 @@ const renderTable = function () {
     const end = currentPage * pageSize;
 
     if (index >= start && index < end) return true;
+    // console.log(postData);
   });
 };
 renderTable();

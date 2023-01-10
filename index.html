@@ -6,71 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/post.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
 
     <script defer src="./js/script.js"></script>
     <title>JSON PLACEHOLDER API</title>
 </head>
 
 <body>
-    <div class="posts-list">
-        <nav class="nav">
-            <p id="name">JSON PLACEHOLDER</p>
-            <ul class="nav-item">
-                <li class="links post">
-                    <a href="#">Posts</a>
-                </li>
-                <li class="links albums">
-                    <a href="#">Albums</a>
-                </li>
-                <li class="links todos">
-                    <a href="#">Todos</a>
-                </li>
-                <li class="links user">
-                    <a href="#">Users</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="postUITable">
-            <table class="table table-border-bottom" id="tableMain">
-                <thead class="th">
-                    <tr>
-                        <th class="th-row" id="title">Title</th>
-                        <th class="th-row" id="des">Description</th>
-                        <th class="th-row" id="word">Words</th>
-                        <th class="th-row" id="author">Author</th>
-                    </tr>
-                </thead>
-                <tbody id="data">
-                    <tr>
-                        <td class="td-1">Sunt aut facere repellat provident occaecati excepturi optio reprehenderit</td>
-                        <td class="td-2">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehe...
-                        </td>
-                        <td class="td-3">458</td>
-                        <td class="td-4">Leanne Graham</td>
-                    </tr>
+    <nav class="nav-bar">
+        <span id="logo">JSON PLACEHOLDER</span>
+        <ul class="menu">
+            <li class="links post">
+                <a class="nav-link" href="#">Posts</a>
+            </li>
+            <li class="links albums">
+                <a class="nav-link" href="#">Albums</a>
+            </li>
+            <li class="links todos">
+                <a class="nav-link" href="#">Todos</a>
+            </li>
+            <li class="links user">
+                <a class="nav-link" href="#">Users</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="post-list">
+        <table>
+            <thead class="th">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Words</th>
+                    <th>Author</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                <tr>
+                    <td class="td-1">Sunt aut facere repellat provident occaecati excepturi optio reprehenderit</td>
+                    <td class="td-2">Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehe...
+                    </td>
+                    <td class="td-3">458</td>
+                    <td class="td-4">Leanne Graham</td>
+                </tr>
 
-                </tbody>
-            </table>
-        </div>
-        <div class="show">
-            <p id="show">Show</p>
-        </div>
-        <nav class="showRows">
-            <ul class="rowNumber">
-                <li id="rows">10 rows</li>
-            </ul>
-        </nav>
-        <div id="pagination">
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-light">Prev</button>
-                <button type="button" class="btn btn-light">Next</button>
-            </div>
+            </tbody>
+        </table>
+    </div>
+    <div class="show">
+        <p id="show">Show</p>
+    </div>
+    <nav class="showRows">
+        <ul class="rowNumber">
+            <li id="rows">10 rows</li>
+        </ul>
+    </nav>
+    <div id="pagination">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-light">Prev</button>
+            <button type="button" class="btn btn-light">Next</button>
         </div>
     </div>
 </body>
